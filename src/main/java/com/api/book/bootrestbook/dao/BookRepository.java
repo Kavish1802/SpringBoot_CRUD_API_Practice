@@ -1,8 +1,9 @@
-// package com.api.book.bootrestbook.dao;
+package com.api.book.bootrestbook.dao;
 
-// import org.springframework.data.repository.CrudRepository;
+import org.springframework.data.repository.CrudRepository;
 
-// public interface BookRepository  extends CrudRepository<Book,Integer>{
-//     public Book findById(int id);
-    
-// }
+import com.api.book.bootrestbook.entities.Book;
+
+public interface BookRepository  extends CrudRepository<Book,Integer>{
+    public Book findById(int id);
+}

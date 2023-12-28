@@ -1,17 +1,17 @@
 package com.api.book.bootrestbook.entities;
 
-// import jakarta.persistence.Entity;
-// import jakarta.persistence.GeneratedValue;
-// import jakarta.persistence.GenerationType;
-// import jakarta.persistence.Id;
-// import jakarta.persistence.Table;
-
-// @Entity
-// @Table(name = "Books")
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
+import jakarta.persistence.Id;
+import jakarta.persistence.Table;
+@Entity
+@Table(name = "Books")
 public class Book {
     
-    // @Id
-    // @GeneratedValue(strategy=GenerationType.AUTO)
+    
+    @Id
+    @GeneratedValue(strategy=GenerationType.AUTO)
     
     private int id;
     private String title;
